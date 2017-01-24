@@ -1,11 +1,11 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 # Bootstrap the setup of WebGoat for developer use in Linux and Mac machines
 # This script will clone the necessary git repositories, call the maven goals
 # in the order the are needed and launch tomcat listening on localhost:8080
 # Happy hacking !
 
-# Find out what is our terminal size
+# Find out what is our terminal size -- SAMPLE--
 COLS="$(tput cols)"
 if (( COLS <= 0 )) ; then
     COLS="${COLUMNS:-80}"
