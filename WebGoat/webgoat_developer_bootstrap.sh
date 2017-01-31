@@ -5,7 +5,7 @@
 # in the order the are needed and launch tomcat listening on localhost:8080
 # Happy hacking !
 
-# Find out what is our terminal size -- SAMPLE--
+# Find out what is our terminal size -- SAMPLE----TO BE REMOVED--
 COLS="$(tput cols)"
 if (( COLS <= 0 )) ; then
     COLS="${COLUMNS:-80}"
