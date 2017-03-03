@@ -6,6 +6,7 @@
 # Happy hacking !
 
 # Find out what is our terminal size -- SAMPLE----TO BE REMOVED--
+# New comments -- SMAPLE -- TO BE REMOVED---
 COLS="$(tput cols)"
 if (( COLS <= 0 )) ; then
     COLS="${COLUMNS:-80}"
