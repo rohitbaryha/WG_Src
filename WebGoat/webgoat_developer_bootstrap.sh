@@ -7,6 +7,7 @@
 
 # Find out what is our terminal size
 # TO BE REMOVED -- SMAPLE -- TO BE REMOVED---
+# ANOTHER COMMENT TO VERIFY JENKINGS BUILD
 COLS="$(tput cols)"
 if (( COLS <= 0 )) ; then
     COLS="${COLUMNS:-80}"
